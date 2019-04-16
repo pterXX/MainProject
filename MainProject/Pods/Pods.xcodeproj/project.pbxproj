@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09676B32065EE2A8174B357297FB2E5C /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14568125DFBE9811A7712EDC9D261523 /* SVIndefiniteAnimatedView.m */; };
+		1C37CF58B00B1724A4C6EF3E57BBA11F /* Pods-MainProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D34956D69C0BFCAFDB9628D30445C6A7 /* Pods-MainProjectTests-dummy.m */; };
+		2111B384CF3C3407F75D6D9535239DAA /* IMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EC69565141A0A6A8E52EBA8E4EA384 /* IMLoginViewController.m */; };
+		237140EF238E21762B25D5CE05AFE597 /* IMSignUpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB4B7B801688DCDA6F5256818FC4510 /* IMSignUpViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32F6CB0E1342988813ECD71D095779BC /* Pods-MainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB633D72E4ED603B3AC6A0BDC0B57800 /* Pods-MainProject-dummy.m */; };
+		359853C7D7C1518ECABCA9F84D212028 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D08639B0271F98A44D5F0F8E2F8607 /* SVProgressAnimatedView.m */; };
+		43AD8129661EAF717F4C6F1779C53894 /* IMSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916FBD8A5B53D1240EB39B35AFFBD269 /* IMSignUpViewController.m */; };
+		4BB256EFF5BA6A97756A5B85BF2A01B3 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA759A36CB1409017901190F1FC2A7A /* SVRadialGradientLayer.m */; };
+		684BB7FAFCBC824776789FC6EBCE0453 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBCCB01A3CC913C79703DFFE2EE786F /* SVProgressHUD-dummy.m */; };
+		7B72764E96E0164119E6FF7AAAEC61DA /* Pods-MainProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87FB4B18F007C4782202288653E855A /* Pods-MainProjectUITests-dummy.m */; };
+		8E13BDA09269B3FAE4B720DA969772E6 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC49A7CE7ECE755E6E63847089197BA /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		967203CBF07471FBAA7585B7ADC7A766 /* IMLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B3EB3978D2FE53147DB051FA849477 /* IMLogin-dummy.m */; };
+		9CFAD96536D2BFA462707ABDBE5F6137 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CF6F9E99C7BF564D6B3EB82F965D2A /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9C9ECC14E38C3C4DAA21835D9B60464 /* IMLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F93C54BED89DB5670E420D47D53BA0F /* IMLoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2907FC26B0FFD6452146658E7713E2B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F7C3E4E5FACDD6DC6A630B7F6B9686 /* SVProgressHUD.m */; };
+		F653EBFF5EC4724AADF0C1BEF573431B /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B31EA996820E75509A6F1A66224B98E1 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCC2D64FBB1B8A566F07E668189C245C /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB6F0348824106F1A32575E935F1B3D /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		379A2CF36E2B34C28747C4BE36FB467B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B9AE4990A314D76F894D128E356FCA;
+			remoteInfo = IMLogin;
+		};
+		6631A6B492E69B78A745CEC5829AAA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9740D9D32F73B3CFE5FDA09E3251B6DD;
+			remoteInfo = SVProgressHUD;
+		};
+		76DD5B11FE217FA51C230E6D052D6EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1EDFD2F1C351F21F1F9C6259B8F8C3;
+			remoteInfo = "Pods-MainProject";
+		};
+		D57DC544495B2EA4845C51F2B13975CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9740D9D32F73B3CFE5FDA09E3251B6DD;
+			remoteInfo = SVProgressHUD;
+		};
+		DE339BBFF53D4B31C2D6DCC96E33972B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1EDFD2F1C351F21F1F9C6259B8F8C3;
+			remoteInfo = "Pods-MainProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D9E1E6AB4C4A7565505FC675DA6037 /* Pods-MainProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		14568125DFBE9811A7712EDC9D261523 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		1CD794B18E4681462E62DADCFE36060C /* Pods-MainProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		1EAAE1B82CCA054DFEB333975E5C6EEF /* Pods-MainProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20D08639B0271F98A44D5F0F8E2F8607 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		27D383DA93A6E1528969D18E85DB140A /* libPods-MainProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MainProjectUITests.a"; path = "libPods-MainProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285C4A13EEA72C8E64A974F88AEC9F30 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		2F0AF10A708123BBA67008E996CF6186 /* libPods-MainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MainProject.a"; path = "libPods-MainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4414F2A6E009EFB20FED27B4D0C45C62 /* Pods-MainProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EFBCADA70E9A96FDD1D2DCB250623F7 /* Pods-MainProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50EC69565141A0A6A8E52EBA8E4EA384 /* IMLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IMLoginViewController.m; path = IMLogin/IMLogin/Login/Controller/IMLoginViewController.m; sourceTree = "<group>"; };
+		52E341A0AAE926244C07715678DB0171 /* IMLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IMLogin-prefix.pch"; sourceTree = "<group>"; };
+		60F7C3E4E5FACDD6DC6A630B7F6B9686 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		6BBCCB01A3CC913C79703DFFE2EE786F /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		6E0DB632B1901ACA6D2E502F179E8D18 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DE43943DC4F6AB0E4F6338E7DD8BCA /* Pods-MainProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77FBBD66204EAF5269D6820CF9F00BCA /* IMLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IMLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AB6F0348824106F1A32575E935F1B3D /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		84CF6F9E99C7BF564D6B3EB82F965D2A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		87933424D62F88777E5A00693D87E6CF /* Pods-MainProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88B3EB3978D2FE53147DB051FA849477 /* IMLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IMLogin-dummy.m"; sourceTree = "<group>"; };
+		8B10D5D0050E6BB6D55542E2C037066E /* libPods-MainProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MainProjectTests.a"; path = "libPods-MainProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9065E1B08BC6795182FB224BD45DB0DF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		916FBD8A5B53D1240EB39B35AFFBD269 /* IMSignUpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IMSignUpViewController.m; path = IMLogin/IMLogin/Login/Controller/IMSignUpViewController.m; sourceTree = "<group>"; };
+		9706BB4D2EACC95996AB30AA2D38ECE1 /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
+		985ABAD8808007C56215FADBF9B9A3D6 /* IMLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IMLogin.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F93C54BED89DB5670E420D47D53BA0F /* IMLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMLoginViewController.h; path = IMLogin/IMLogin/Login/Controller/IMLoginViewController.h; sourceTree = "<group>"; };
+		ABE91AF79766814E816E1904E04DCF87 /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
+		B31EA996820E75509A6F1A66224B98E1 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		BAC49A7CE7ECE755E6E63847089197BA /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		BCA3ABE6C9CC0AB138BC311224C2C3D6 /* Pods-MainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		C81F3F0D0A7ED6F198FF5742EC8552E3 /* libIMLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIMLogin.a; path = libIMLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA80E9FAB69C23C2A134793CBB1DC215 /* Pods-MainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFA759A36CB1409017901190F1FC2A7A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		D04579075580716C4FBE59783DFD56AA /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D34956D69C0BFCAFDB9628D30445C6A7 /* Pods-MainProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProjectTests-dummy.m"; sourceTree = "<group>"; };
+		D87FB4B18F007C4782202288653E855A /* Pods-MainProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		DB9C74E937BA2251E8A98AE52559B3E6 /* Pods-MainProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6FDD24AF9497358F9D1143433D8D2C0 /* Pods-MainProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-resources.sh"; sourceTree = "<group>"; };
+		EEF50D83A77E159F19D29A6E0EFABC73 /* readme.md */ = {isa = PBXFileReference; includeInIndex = 1; path = readme.md; sourceTree = "<group>"; };
+		FB633D72E4ED603B3AC6A0BDC0B57800 /* Pods-MainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProject-dummy.m"; sourceTree = "<group>"; };
+		FC6319832EBCA6AF8ADB27B2310C04C0 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		FEB4B7B801688DCDA6F5256818FC4510 /* IMSignUpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMSignUpViewController.h; path = IMLogin/IMLogin/Login/Controller/IMSignUpViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03769616A596D771BEF3D9DFF9300387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E93E0AA9EBC25B8976A25CFF285E96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4958A5328077DFFF0F578FB44E700E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15CD84B13005903C9F7C141EF25F54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF54583E266B236CB3D7B6276208A136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080B975386FFBF2F2651FF872521AFEE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9706BB4D2EACC95996AB30AA2D38ECE1 /* FILE_LICENSE */,
+				77FBBD66204EAF5269D6820CF9F00BCA /* IMLogin.podspec */,
+				EEF50D83A77E159F19D29A6E0EFABC73 /* readme.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0A5C7991893E2E8BE3B4B65034591FD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9065E1B08BC6795182FB224BD45DB0DF /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		32593C513E236ED6F7B28CEE93B2BD8A /* Pods-MainProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4414F2A6E009EFB20FED27B4D0C45C62 /* Pods-MainProjectUITests-acknowledgements.markdown */,
+				70DE43943DC4F6AB0E4F6338E7DD8BCA /* Pods-MainProjectUITests-acknowledgements.plist */,
+				D87FB4B18F007C4782202288653E855A /* Pods-MainProjectUITests-dummy.m */,
+				1EAAE1B82CCA054DFEB333975E5C6EEF /* Pods-MainProjectUITests.debug.xcconfig */,
+				4EFBCADA70E9A96FDD1D2DCB250623F7 /* Pods-MainProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-MainProjectUITests";
+			path = "Target Support Files/Pods-MainProjectUITests";
+			sourceTree = "<group>";
+		};
+		AA3323FFB3956935FE262A46D4549D70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6319832EBCA6AF8ADB27B2310C04C0 /* SVProgressHUD.xcconfig */,
+				6BBCCB01A3CC913C79703DFFE2EE786F /* SVProgressHUD-dummy.m */,
+				285C4A13EEA72C8E64A974F88AEC9F30 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		AB863F77F1FEB8A4A0674FC5B81A17BD /* IMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				9F93C54BED89DB5670E420D47D53BA0F /* IMLoginViewController.h */,
+				50EC69565141A0A6A8E52EBA8E4EA384 /* IMLoginViewController.m */,
+				FEB4B7B801688DCDA6F5256818FC4510 /* IMSignUpViewController.h */,
+				916FBD8A5B53D1240EB39B35AFFBD269 /* IMSignUpViewController.m */,
+				080B975386FFBF2F2651FF872521AFEE /* Pod */,
+				B5B2FBA0190915E388AE670218429660 /* Support Files */,
+			);
+			name = IMLogin;
+			path = ../../IMLogin;
+			sourceTree = "<group>";
+		};
+		B5B2FBA0190915E388AE670218429660 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				985ABAD8808007C56215FADBF9B9A3D6 /* IMLogin.xcconfig */,
+				88B3EB3978D2FE53147DB051FA849477 /* IMLogin-dummy.m */,
+				52E341A0AAE926244C07715678DB0171 /* IMLogin-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/IMLogin";
+			sourceTree = "<group>";
+		};
+		BC3E817F2ACF81F0557BBE11AFFD7252 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E2D1B410B959104DD941772E30FB83 /* Pods-MainProject */,
+				ED0F27856BE041C6378904DA2A0E75C0 /* Pods-MainProjectTests */,
+				32593C513E236ED6F7B28CEE93B2BD8A /* Pods-MainProjectUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1E2D1B410B959104DD941772E30FB83 /* Pods-MainProject */ = {
+			isa = PBXGroup;
+			children = (
+				CA80E9FAB69C23C2A134793CBB1DC215 /* Pods-MainProject-acknowledgements.markdown */,
+				BCA3ABE6C9CC0AB138BC311224C2C3D6 /* Pods-MainProject-acknowledgements.plist */,
+				FB633D72E4ED603B3AC6A0BDC0B57800 /* Pods-MainProject-dummy.m */,
+				E6FDD24AF9497358F9D1143433D8D2C0 /* Pods-MainProject-resources.sh */,
+				D04579075580716C4FBE59783DFD56AA /* Pods-MainProject.debug.xcconfig */,
+				ABE91AF79766814E816E1904E04DCF87 /* Pods-MainProject.release.xcconfig */,
+			);
+			name = "Pods-MainProject";
+			path = "Target Support Files/Pods-MainProject";
+			sourceTree = "<group>";
+		};
+		C5739D0C7E65374B9D4A711EE86FED15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C81F3F0D0A7ED6F198FF5742EC8552E3 /* libIMLogin.a */,
+				2F0AF10A708123BBA67008E996CF6186 /* libPods-MainProject.a */,
+				8B10D5D0050E6BB6D55542E2C037066E /* libPods-MainProjectTests.a */,
+				27D383DA93A6E1528969D18E85DB140A /* libPods-MainProjectUITests.a */,
+				6E0DB632B1901ACA6D2E502F179E8D18 /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7850BD3ABF2457520D6FC41F41A57F5 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				84CF6F9E99C7BF564D6B3EB82F965D2A /* SVIndefiniteAnimatedView.h */,
+				14568125DFBE9811A7712EDC9D261523 /* SVIndefiniteAnimatedView.m */,
+				7AB6F0348824106F1A32575E935F1B3D /* SVProgressAnimatedView.h */,
+				20D08639B0271F98A44D5F0F8E2F8607 /* SVProgressAnimatedView.m */,
+				BAC49A7CE7ECE755E6E63847089197BA /* SVProgressHUD.h */,
+				60F7C3E4E5FACDD6DC6A630B7F6B9686 /* SVProgressHUD.m */,
+				B31EA996820E75509A6F1A66224B98E1 /* SVRadialGradientLayer.h */,
+				CFA759A36CB1409017901190F1FC2A7A /* SVRadialGradientLayer.m */,
+				0A5C7991893E2E8BE3B4B65034591FD1 /* Resources */,
+				AA3323FFB3956935FE262A46D4549D70 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F09E2ADFE8CDCD9CF7D9D0784ECD2730 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D0F28EFC8C9E325880381D586C3CA919 /* Pods */,
+				C5739D0C7E65374B9D4A711EE86FED15 /* Products */,
+				BC3E817F2ACF81F0557BBE11AFFD7252 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F28EFC8C9E325880381D586C3CA919 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7850BD3ABF2457520D6FC41F41A57F5 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED0F27856BE041C6378904DA2A0E75C0 /* Pods-MainProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9C74E937BA2251E8A98AE52559B3E6 /* Pods-MainProjectTests-acknowledgements.markdown */,
+				87933424D62F88777E5A00693D87E6CF /* Pods-MainProjectTests-acknowledgements.plist */,
+				D34956D69C0BFCAFDB9628D30445C6A7 /* Pods-MainProjectTests-dummy.m */,
+				05D9E1E6AB4C4A7565505FC675DA6037 /* Pods-MainProjectTests.debug.xcconfig */,
+				1CD794B18E4681462E62DADCFE36060C /* Pods-MainProjectTests.release.xcconfig */,
+			);
+			name = "Pods-MainProjectTests";
+			path = "Target Support Files/Pods-MainProjectTests";
+			sourceTree = "<group>";
+		};
+		F09E2ADFE8CDCD9CF7D9D0784ECD2730 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB863F77F1FEB8A4A0674FC5B81A17BD /* IMLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C7746CCB926A74A7A88CEB018B1E024 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD75AC6F1949E946DB0030441396399 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFAD96536D2BFA462707ABDBE5F6137 /* SVIndefiniteAnimatedView.h in Headers */,
+				FCC2D64FBB1B8A566F07E668189C245C /* SVProgressAnimatedView.h in Headers */,
+				8E13BDA09269B3FAE4B720DA969772E6 /* SVProgressHUD.h in Headers */,
+				F653EBFF5EC4724AADF0C1BEF573431B /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88EBF0227E6878FFE714596B47C9307 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1A64247FC7D0DD2D9E3A2F1C31C4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEFF7D62FF93673BC00341906C6BADC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C9ECC14E38C3C4DAA21835D9B60464 /* IMLoginViewController.h in Headers */,
+				237140EF238E21762B25D5CE05AFE597 /* IMSignUpViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3459208D874A0B7694545FF056B53DB4 /* Pods-MainProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E9E2240C3C1B244AF6EE897E704AF3 /* Build configuration list for PBXNativeTarget "Pods-MainProjectUITests" */;
+			buildPhases = (
+				2C7746CCB926A74A7A88CEB018B1E024 /* Headers */,
+				DE665B400A1A2B24E39013C9265C2908 /* Sources */,
+				03769616A596D771BEF3D9DFF9300387 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF15D19A60EB9DBC7CEB4E63668930B /* PBXTargetDependency */,
+			);
+			name = "Pods-MainProjectUITests";
+			productName = "Pods-MainProjectUITests";
+			productReference = 27D383DA93A6E1528969D18E85DB140A /* libPods-MainProjectUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9076A05982EBC6023AD000D1454433AB /* Pods-MainProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918709B40C0E994503B81DE15A2A9360 /* Build configuration list for PBXNativeTarget "Pods-MainProjectTests" */;
+			buildPhases = (
+				A88EBF0227E6878FFE714596B47C9307 /* Headers */,
+				EC43CF82CCC6AF8B38CB3D6693D57643 /* Sources */,
+				2E93E0AA9EBC25B8976A25CFF285E96B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02404A231ED0C10847274C67DA70E8D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MainProjectTests";
+			productName = "Pods-MainProjectTests";
+			productReference = 8B10D5D0050E6BB6D55542E2C037066E /* libPods-MainProjectTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9740D9D32F73B3CFE5FDA09E3251B6DD /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F27421D66C8D2A563CFE7205451613 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				8BD75AC6F1949E946DB0030441396399 /* Headers */,
+				59B8178DE8402B9EE287077CE5B61BCC /* Sources */,
+				4958A5328077DFFF0F578FB44E700E4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 6E0DB632B1901ACA6D2E502F179E8D18 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3B9AE4990A314D76F894D128E356FCA /* IMLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2114EB8BD883F1963DB1CC622F8807D0 /* Build configuration list for PBXNativeTarget "IMLogin" */;
+			buildPhases = (
+				EEEFF7D62FF93673BC00341906C6BADC /* Headers */,
+				356149BA1275CE5A2DFA66360B8F6EFD /* Sources */,
+				C15CD84B13005903C9F7C141EF25F54F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285E2133EB685D5C655EFA54BF0D652F /* PBXTargetDependency */,
+			);
+			name = IMLogin;
+			productName = IMLogin;
+			productReference = C81F3F0D0A7ED6F198FF5742EC8552E3 /* libIMLogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB1EDFD2F1C351F21F1F9C6259B8F8C3 /* Pods-MainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0E9FD2F568571425B03A89E4A5ED54 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */;
+			buildPhases = (
+				C9B1A64247FC7D0DD2D9E3A2F1C31C4D /* Headers */,
+				3A9EF673119633F13BEB837AA83CF2ED /* Sources */,
+				CF54583E266B236CB3D7B6276208A136 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E787467D33E70B386BC22340A786B025 /* PBXTargetDependency */,
+				475AF3CBB164A37A4772BA1CDD06D916 /* PBXTargetDependency */,
+			);
+			name = "Pods-MainProject";
+			productName = "Pods-MainProject";
+			productReference = 2F0AF10A708123BBA67008E996CF6186 /* libPods-MainProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C5739D0C7E65374B9D4A711EE86FED15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B9AE4990A314D76F894D128E356FCA /* IMLogin */,
+				FB1EDFD2F1C351F21F1F9C6259B8F8C3 /* Pods-MainProject */,
+				9076A05982EBC6023AD000D1454433AB /* Pods-MainProjectTests */,
+				3459208D874A0B7694545FF056B53DB4 /* Pods-MainProjectUITests */,
+				9740D9D32F73B3CFE5FDA09E3251B6DD /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356149BA1275CE5A2DFA66360B8F6EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967203CBF07471FBAA7585B7ADC7A766 /* IMLogin-dummy.m in Sources */,
+				2111B384CF3C3407F75D6D9535239DAA /* IMLoginViewController.m in Sources */,
+				43AD8129661EAF717F4C6F1779C53894 /* IMSignUpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9EF673119633F13BEB837AA83CF2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F6CB0E1342988813ECD71D095779BC /* Pods-MainProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B8178DE8402B9EE287077CE5B61BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09676B32065EE2A8174B357297FB2E5C /* SVIndefiniteAnimatedView.m in Sources */,
+				359853C7D7C1518ECABCA9F84D212028 /* SVProgressAnimatedView.m in Sources */,
+				684BB7FAFCBC824776789FC6EBCE0453 /* SVProgressHUD-dummy.m in Sources */,
+				E2907FC26B0FFD6452146658E7713E2B /* SVProgressHUD.m in Sources */,
+				4BB256EFF5BA6A97756A5B85BF2A01B3 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE665B400A1A2B24E39013C9265C2908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B72764E96E0164119E6FF7AAAEC61DA /* Pods-MainProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC43CF82CCC6AF8B38CB3D6693D57643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C37CF58B00B1724A4C6EF3E57BBA11F /* Pods-MainProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02404A231ED0C10847274C67DA70E8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MainProject";
+			target = FB1EDFD2F1C351F21F1F9C6259B8F8C3 /* Pods-MainProject */;
+			targetProxy = DE339BBFF53D4B31C2D6DCC96E33972B /* PBXContainerItemProxy */;
+		};
+		285E2133EB685D5C655EFA54BF0D652F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 9740D9D32F73B3CFE5FDA09E3251B6DD /* SVProgressHUD */;
+			targetProxy = 6631A6B492E69B78A745CEC5829AAA98 /* PBXContainerItemProxy */;
+		};
+		475AF3CBB164A37A4772BA1CDD06D916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 9740D9D32F73B3CFE5FDA09E3251B6DD /* SVProgressHUD */;
+			targetProxy = D57DC544495B2EA4845C51F2B13975CE /* PBXContainerItemProxy */;
+		};
+		ADF15D19A60EB9DBC7CEB4E63668930B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MainProject";
+			target = FB1EDFD2F1C351F21F1F9C6259B8F8C3 /* Pods-MainProject */;
+			targetProxy = 76DD5B11FE217FA51C230E6D052D6EB6 /* PBXContainerItemProxy */;
+		};
+		E787467D33E70B386BC22340A786B025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IMLogin;
+			target = A3B9AE4990A314D76F894D128E356FCA /* IMLogin */;
+			targetProxy = 379A2CF36E2B34C28747C4BE36FB467B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3266FA84A98A3EEF6C640D4EC8B30590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE91AF79766814E816E1904E04DCF87 /* Pods-MainProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38FA32E6AB0CE5779C9A65FA9DCBCA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985ABAD8808007C56215FADBF9B9A3D6 /* IMLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IMLogin/IMLogin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IMLogin;
+				PRODUCT_NAME = IMLogin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41437478C1C5ED3BD7EF30C1044FD665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985ABAD8808007C56215FADBF9B9A3D6 /* IMLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IMLogin/IMLogin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IMLogin;
+				PRODUCT_NAME = IMLogin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46A4ACEC746D0559BC8402343B5A41B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04579075580716C4FBE59783DFD56AA /* Pods-MainProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C2B952A387931FA18DB4AEE1BF4DF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD794B18E4681462E62DADCFE36060C /* Pods-MainProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F9912B277CE2BBBA11DAEE72759481D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6319832EBCA6AF8ADB27B2310C04C0 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F890B3112B3FDFD403DB1DC0DCD157F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6319832EBCA6AF8ADB27B2310C04C0 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8A771A496E8A6E6D2FB09DA0132F4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D9E1E6AB4C4A7565505FC675DA6037 /* Pods-MainProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DC9ACBEBB7EBB67A072AB9DD60961F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFBCADA70E9A96FDD1D2DCB250623F7 /* Pods-MainProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F47C53103BFD79CCB7CBE9520B04947E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAAE1B82CCA054DFEB333975E5C6EEF /* Pods-MainProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2114EB8BD883F1963DB1CC622F8807D0 /* Build configuration list for PBXNativeTarget "IMLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41437478C1C5ED3BD7EF30C1044FD665 /* Debug */,
+				38FA32E6AB0CE5779C9A65FA9DCBCA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F27421D66C8D2A563CFE7205451613 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F890B3112B3FDFD403DB1DC0DCD157F /* Debug */,
+				5F9912B277CE2BBBA11DAEE72759481D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918709B40C0E994503B81DE15A2A9360 /* Build configuration list for PBXNativeTarget "Pods-MainProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A771A496E8A6E6D2FB09DA0132F4D9 /* Debug */,
+				5C2B952A387931FA18DB4AEE1BF4DF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0E9FD2F568571425B03A89E4A5ED54 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A4ACEC746D0559BC8402343B5A41B9 /* Debug */,
+				3266FA84A98A3EEF6C640D4EC8B30590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E9E2240C3C1B244AF6EE897E704AF3 /* Build configuration list for PBXNativeTarget "Pods-MainProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47C53103BFD79CCB7CBE9520B04947E /* Debug */,
+				D2DC9ACBEBB7EBB67A072AB9DD60961F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

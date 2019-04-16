@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E36B36200B498ACD9C4882B /* Pods_IMLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C7528F48DC6185CFBB05E0 /* Pods_IMLogin.framework */; };
+		846F65AD2265A80700A6851E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F65AC2265A80700A6851E /* AppDelegate.m */; };
+		846F65B02265A80700A6851E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F65AF2265A80700A6851E /* ViewController.m */; };
+		846F65B32265A80700A6851E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846F65B12265A80700A6851E /* Main.storyboard */; };
+		846F65B52265A80D00A6851E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846F65B42265A80D00A6851E /* Assets.xcassets */; };
+		846F65B82265A80D00A6851E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846F65B62265A80D00A6851E /* LaunchScreen.storyboard */; };
+		846F65BB2265A80D00A6851E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F65BA2265A80D00A6851E /* main.m */; };
+		846F65C52265A80D00A6851E /* IMLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F65C42265A80D00A6851E /* IMLoginTests.m */; };
+		846F65D02265A80D00A6851E /* IMLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F65CF2265A80D00A6851E /* IMLoginUITests.m */; };
+		846F65E62265A91A00A6851E /* IMSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F65E02265A91A00A6851E /* IMSignUpViewController.m */; };
+		846F65E72265A91A00A6851E /* IMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F65E12265A91A00A6851E /* IMLoginViewController.m */; };
+		846F664B2265BC6F00A6851E /* IMLogin.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 846F664A2265BC6E00A6851E /* IMLogin.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846F65C12265A80D00A6851E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846F65A02265A80700A6851E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846F65A72265A80700A6851E;
+			remoteInfo = IMLogin;
+		};
+		846F65CC2265A80D00A6851E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846F65A02265A80700A6851E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846F65A72265A80700A6851E;
+			remoteInfo = IMLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29C7528F48DC6185CFBB05E0 /* Pods_IMLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DF1DFB0C98E224F84DE73 /* Pods-IMLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMLogin.debug.xcconfig"; path = "Target Support Files/Pods-IMLogin/Pods-IMLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		846F65A82265A80700A6851E /* IMLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846F65AB2265A80700A6851E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846F65AC2265A80700A6851E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846F65AE2265A80700A6851E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		846F65AF2265A80700A6851E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846F65B22265A80700A6851E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846F65B42265A80D00A6851E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846F65B72265A80D00A6851E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846F65B92265A80D00A6851E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846F65BA2265A80D00A6851E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846F65C02265A80D00A6851E /* IMLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846F65C42265A80D00A6851E /* IMLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMLoginTests.m; sourceTree = "<group>"; };
+		846F65C62265A80D00A6851E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846F65CB2265A80D00A6851E /* IMLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846F65CF2265A80D00A6851E /* IMLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMLoginUITests.m; sourceTree = "<group>"; };
+		846F65D12265A80D00A6851E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846F65E02265A91A00A6851E /* IMSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMSignUpViewController.m; sourceTree = "<group>"; };
+		846F65E12265A91A00A6851E /* IMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLoginViewController.m; sourceTree = "<group>"; };
+		846F65E22265A91A00A6851E /* IMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLoginViewController.h; sourceTree = "<group>"; };
+		846F65E32265A91A00A6851E /* IMSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMSignUpViewController.h; sourceTree = "<group>"; };
+		846F66442265B12500A6851E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		846F664A2265BC6E00A6851E /* IMLogin.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IMLogin.podspec; sourceTree = "<group>"; };
+		846F666C2265D41600A6851E /* bg_login.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_login.jpeg; sourceTree = "<group>"; };
+		D627FD3103B0341092363E98 /* Pods-IMLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMLogin.release.xcconfig"; path = "Target Support Files/Pods-IMLogin/Pods-IMLogin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846F65A52265A80700A6851E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E36B36200B498ACD9C4882B /* Pods_IMLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F65BD2265A80D00A6851E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F65C82265A80D00A6851E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753DA806AB67A53A5DC834D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C7528F48DC6185CFBB05E0 /* Pods_IMLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846F659F2265A80700A6851E = {
+			isa = PBXGroup;
+			children = (
+				846F664A2265BC6E00A6851E /* IMLogin.podspec */,
+				846F65AA2265A80700A6851E /* IMLogin */,
+				846F65C32265A80D00A6851E /* IMLoginTests */,
+				846F65CE2265A80D00A6851E /* IMLoginUITests */,
+				846F65A92265A80700A6851E /* Products */,
+				B34A422CA8F416ACA846B00A /* Pods */,
+				753DA806AB67A53A5DC834D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846F65A92265A80700A6851E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846F65A82265A80700A6851E /* IMLogin.app */,
+				846F65C02265A80D00A6851E /* IMLoginTests.xctest */,
+				846F65CB2265A80D00A6851E /* IMLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846F65AA2265A80700A6851E /* IMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				846F65DD2265A90C00A6851E /* IMLogin */,
+				846F65AB2265A80700A6851E /* AppDelegate.h */,
+				846F65AC2265A80700A6851E /* AppDelegate.m */,
+				846F65AE2265A80700A6851E /* ViewController.h */,
+				846F65AF2265A80700A6851E /* ViewController.m */,
+				846F65B12265A80700A6851E /* Main.storyboard */,
+				846F65B42265A80D00A6851E /* Assets.xcassets */,
+				846F65B62265A80D00A6851E /* LaunchScreen.storyboard */,
+				846F65B92265A80D00A6851E /* Info.plist */,
+				846F65BA2265A80D00A6851E /* main.m */,
+				846F66442265B12500A6851E /* PrefixHeader.pch */,
+			);
+			path = IMLogin;
+			sourceTree = "<group>";
+		};
+		846F65C32265A80D00A6851E /* IMLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				846F65C42265A80D00A6851E /* IMLoginTests.m */,
+				846F65C62265A80D00A6851E /* Info.plist */,
+			);
+			path = IMLoginTests;
+			sourceTree = "<group>";
+		};
+		846F65CE2265A80D00A6851E /* IMLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846F65CF2265A80D00A6851E /* IMLoginUITests.m */,
+				846F65D12265A80D00A6851E /* Info.plist */,
+			);
+			path = IMLoginUITests;
+			sourceTree = "<group>";
+		};
+		846F65DD2265A90C00A6851E /* IMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				846F65DE2265A91A00A6851E /* Login */,
+			);
+			path = IMLogin;
+			sourceTree = "<group>";
+		};
+		846F65DE2265A91A00A6851E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				846F65DF2265A91A00A6851E /* Controller */,
+				846F65E42265A91A00A6851E /* Resource */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		846F65DF2265A91A00A6851E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				846F65E22265A91A00A6851E /* IMLoginViewController.h */,
+				846F65E12265A91A00A6851E /* IMLoginViewController.m */,
+				846F65E32265A91A00A6851E /* IMSignUpViewController.h */,
+				846F65E02265A91A00A6851E /* IMSignUpViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		846F65E42265A91A00A6851E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				846F666C2265D41600A6851E /* bg_login.jpeg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B34A422CA8F416ACA846B00A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				302DF1DFB0C98E224F84DE73 /* Pods-IMLogin.debug.xcconfig */,
+				D627FD3103B0341092363E98 /* Pods-IMLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846F65A72265A80700A6851E /* IMLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846F65D42265A80D00A6851E /* Build configuration list for PBXNativeTarget "IMLogin" */;
+			buildPhases = (
+				EC530B85345B2514CC6EE62A /* [CP] Check Pods Manifest.lock */,
+				846F65A42265A80700A6851E /* Sources */,
+				846F65A52265A80700A6851E /* Frameworks */,
+				846F65A62265A80700A6851E /* Resources */,
+				3920250075EAD01E0661AEE5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMLogin;
+			productName = IMLogin;
+			productReference = 846F65A82265A80700A6851E /* IMLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846F65BF2265A80D00A6851E /* IMLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846F65D72265A80D00A6851E /* Build configuration list for PBXNativeTarget "IMLoginTests" */;
+			buildPhases = (
+				846F65BC2265A80D00A6851E /* Sources */,
+				846F65BD2265A80D00A6851E /* Frameworks */,
+				846F65BE2265A80D00A6851E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846F65C22265A80D00A6851E /* PBXTargetDependency */,
+			);
+			name = IMLoginTests;
+			productName = IMLoginTests;
+			productReference = 846F65C02265A80D00A6851E /* IMLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846F65CA2265A80D00A6851E /* IMLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846F65DA2265A80D00A6851E /* Build configuration list for PBXNativeTarget "IMLoginUITests" */;
+			buildPhases = (
+				846F65C72265A80D00A6851E /* Sources */,
+				846F65C82265A80D00A6851E /* Frameworks */,
+				846F65C92265A80D00A6851E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846F65CD2265A80D00A6851E /* PBXTargetDependency */,
+			);
+			name = IMLoginUITests;
+			productName = IMLoginUITests;
+			productReference = 846F65CB2265A80D00A6851E /* IMLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846F65A02265A80700A6851E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					846F65A72265A80700A6851E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					846F65BF2265A80D00A6851E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 846F65A72265A80700A6851E;
+					};
+					846F65CA2265A80D00A6851E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 846F65A72265A80700A6851E;
+					};
+				};
+			};
+			buildConfigurationList = 846F65A32265A80700A6851E /* Build configuration list for PBXProject "IMLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846F659F2265A80700A6851E;
+			productRefGroup = 846F65A92265A80700A6851E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846F65A72265A80700A6851E /* IMLogin */,
+				846F65BF2265A80D00A6851E /* IMLoginTests */,
+				846F65CA2265A80D00A6851E /* IMLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846F65A62265A80700A6851E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F664B2265BC6F00A6851E /* IMLogin.podspec in Resources */,
+				846F65B82265A80D00A6851E /* LaunchScreen.storyboard in Resources */,
+				846F65B52265A80D00A6851E /* Assets.xcassets in Resources */,
+				846F65B32265A80700A6851E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F65BE2265A80D00A6851E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F65C92265A80D00A6851E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3920250075EAD01E0661AEE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMLogin/Pods-IMLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IMBase/IMBase.framework",
+				"${BUILT_PRODUCTS_DIR}/PrivateKit/PrivateKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IMBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrivateKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMLogin/Pods-IMLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC530B85345B2514CC6EE62A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846F65A42265A80700A6851E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F65E72265A91A00A6851E /* IMLoginViewController.m in Sources */,
+				846F65B02265A80700A6851E /* ViewController.m in Sources */,
+				846F65BB2265A80D00A6851E /* main.m in Sources */,
+				846F65E62265A91A00A6851E /* IMSignUpViewController.m in Sources */,
+				846F65AD2265A80700A6851E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F65BC2265A80D00A6851E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F65C52265A80D00A6851E /* IMLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F65C72265A80D00A6851E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F65D02265A80D00A6851E /* IMLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846F65C22265A80D00A6851E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846F65A72265A80700A6851E /* IMLogin */;
+			targetProxy = 846F65C12265A80D00A6851E /* PBXContainerItemProxy */;
+		};
+		846F65CD2265A80D00A6851E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846F65A72265A80700A6851E /* IMLogin */;
+			targetProxy = 846F65CC2265A80D00A6851E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846F65B12265A80700A6851E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846F65B22265A80700A6851E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846F65B62265A80D00A6851E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846F65B72265A80D00A6851E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846F65D22265A80D00A6851E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846F65D32265A80D00A6851E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846F65D52265A80D00A6851E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302DF1DFB0C98E224F84DE73 /* Pods-IMLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQM469J9QF;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = IMLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xushijie.IMLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846F65D62265A80D00A6851E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D627FD3103B0341092363E98 /* Pods-IMLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQM469J9QF;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = IMLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xushijie.IMLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846F65D82265A80D00A6851E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQM469J9QF;
+				INFOPLIST_FILE = IMLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xushijie.IMLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMLogin.app/IMLogin";
+			};
+			name = Debug;
+		};
+		846F65D92265A80D00A6851E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQM469J9QF;
+				INFOPLIST_FILE = IMLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xushijie.IMLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMLogin.app/IMLogin";
+			};
+			name = Release;
+		};
+		846F65DB2265A80D00A6851E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQM469J9QF;
+				INFOPLIST_FILE = IMLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xushijie.IMLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMLogin;
+			};
+			name = Debug;
+		};
+		846F65DC2265A80D00A6851E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQM469J9QF;
+				INFOPLIST_FILE = IMLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xushijie.IMLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846F65A32265A80700A6851E /* Build configuration list for PBXProject "IMLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F65D22265A80D00A6851E /* Debug */,
+				846F65D32265A80D00A6851E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846F65D42265A80D00A6851E /* Build configuration list for PBXNativeTarget "IMLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F65D52265A80D00A6851E /* Debug */,
+				846F65D62265A80D00A6851E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846F65D72265A80D00A6851E /* Build configuration list for PBXNativeTarget "IMLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F65D82265A80D00A6851E /* Debug */,
+				846F65D92265A80D00A6851E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846F65DA2265A80D00A6851E /* Build configuration list for PBXNativeTarget "IMLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F65DB2265A80D00A6851E /* Debug */,
+				846F65DC2265A80D00A6851E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846F65A02265A80700A6851E /* Project object */;
+}

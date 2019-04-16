@@ -1,0 +1,7 @@
+IMBase.xcodeproj/xcuserdata/
+IMBase.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+IMBase.xcodeproj/project.xcworkspace/xcuserdata/

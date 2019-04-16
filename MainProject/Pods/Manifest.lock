@@ -1,0 +1,23 @@
+PODS:
+  - IMLogin (1):
+    - SVProgressHUD
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - IMLogin (from `../IMLogin`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  IMLogin:
+    :path: "../IMLogin"
+
+SPEC CHECKSUMS:
+  IMLogin: 8cb9e508d70b4a4867dc93f59c2a5a9ac01ae024
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 9e01e5ffa178a52e566a0ec6d0484d11251c1280
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,31 @@
+{
+  "name": "IMLogin",
+  "version": "1",
+  "summary": "IMLogin.",
+  "description": "this is IMLogin",
+  "homepage": "https://github.com/pterXX/IMLogin",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/pterXX/IMLogin.git",
+    "tag": "1"
+  },
+  "source_files": "IMLogin/IMLogin/**/*.{h,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ],
+    "./IMBase": [
+
+    ]
+  }
+}
